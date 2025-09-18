@@ -40,4 +40,4 @@ final_tiempo =time.time() - iniciar_tiempo
 if segura:
     print(f"la contraseña que se encontro fue: {segura}")
     print(f"los intentos totales fueron: {intentos}")
-    print(f"el tiempo de ejecucion fue: {final_tiempo}")
+    print(f"el tiempo de ejecucion fue: {final_tiempo:.2f}")
