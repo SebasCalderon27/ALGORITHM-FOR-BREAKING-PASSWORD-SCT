@@ -20,3 +20,12 @@ Si la cadena aún es más corta que la contraseña, añade cada carácter posibl
 Al acabar, imprime en pantalla la contraseña encontrada, el número total de intentos y el tiempo total.
 
 Por ultimo si hay datos, crea una gráfica con turtle que muestra la relación Intentos vs Tiempo y marca en rojo el punto final.
+
+Caso 1 — contraseña corta (ej. "abc"):
+La contraseña que se encontró fue: abc
+Los intentos totales fueron: 1543
+El tiempo de ejecución fue: 0.3154 segundos
+
+Reflexión: ¿qué pasa si la contraseña tiene 8+ caracteres y usa mayúsculas, números y símbolos?
+Si la contraseña tiene 8 o más caracteres y usa mayúsculas, números y símbolos, el número de combinaciones posibles crece de forma exponencial
+y el tiempo para romperla con fuerza bruta puede ser de años o siglos, dependiendo de la velocidad de los intentos, esto muestra por qué las contraseñas largas y variadas son mucho más seguras frente a este tipo de ataques.
